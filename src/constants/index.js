@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `As a Full Stack Developer, I specialize in crafting intuitive user interfaces and developing scalable back-end systems. I am passionate about turning complex concepts into smooth and interactive web experiences. Proficient in modern frameworks like React and Spring Boot, I focus on delivering high-quality, user-centered applications. Let’s collaborate and create something remarkable!`;
+export const HERO_CONTENT = `As a Software Developer, I specialize in crafting intuitive user interfaces and developing scalable back-end systems. I am passionate about turning complex concepts into smooth and interactive web experiences. Proficient in modern frameworks like React and Spring Boot, I focus on delivering high-quality, user-centered applications. Let’s collaborate and create something remarkable!`;
 
-export const ABOUT_TEXT = `A results-driven Full Stack Developer with 6 years of experience in software development, specializing in Java and JavaScript technologies across the Healthcare, Financial, and Retail industries.
+export const ABOUT_TEXT = `A results-driven Software Developer with 6 years of experience in software development, specializing in Java and JavaScript technologies across the Healthcare, Financial, and Retail industries.
 
 Proficient in building scalable, secure, and high-performance applications using Java, Spring Boot, ReactJS, and microservices architecture.
 
@@ -20,14 +20,14 @@ Strong background in Test-Driven Development (TDD), Agile (Scrum) workflows, and
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Full Stack Java Developer",
+    role: "Software Developer",
     company: "Uline-Pleasant Prairie, WI,USA",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. I specialize in developing RESTful APIs, integrating cloud services, and optimizing microservices with Kubernetes and Docker. With expertise in database management (Oracle, MySQL, PostgreSQL, Cassandra) and real-time event-driven architectures (Kafka, RabbitMQ), I create high-performance solutions. Passionate about CI/CD automation, security best practices, and Agile methodologies, I thrive in delivering efficient, modern software solutions.`,
     technologies: ["Java", "RESTful Web Services", "Microservices", "Spring Boot", "Spring MVC", "Spring Security", "OAuth2", "JWT", "React", "TypeScript", "RxJS", "Spring Data JPA", "Hibernate", "Oracle", "MySQL", "Cassandra"],
   },
   {
     year: "2021 - 2023",
-    role: "Full Stack Developer",
+    role: "Software Developer",
     company: "Legacy Health-Portland, OR,USA",
     description: `I specialize in building secure, scalable microservices and developing real-time, data-driven front-end applications for industries like healthcare and finance. With expertise in OAuth2, JWT, Kubernetes, Kafka, and CI/CD pipelines, I ensure high-performance, reliable, and efficient software solutions. Passionate about Agile development, cloud security, and system optimization, I continuously innovate to deliver impactful digital experiences.`,
     technologies: ["Java 8", "HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Redux", "RESTful APIs", "Spring MVC", "Spring IOC", "Spring Hibernate", "Spring Framework", "Spring Security", "OAuth2", "Spring Boot"],
@@ -41,7 +41,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2018 - 2019",
-    role: "Java Developer",
+    role: "Software Developer",
     company: "HashTag Technoligies-Coimbatore, India",
     description: `I was involved in the development and enhancement of a Java-based enterprise web application following J2EE architecture to manage business operations efficiently. The application was built using Struts (MVC2 pattern) for clean separation of concerns, with JSP, HTML, and JavaScript for dynamic user interface development. I developed and deployed Servlets on IBM WebSphere Application Server and implemented Spring's Dependency Injection to manage service and DAO layers for better modularity and testability.`,
     technologies: ["J2EE", "JSP", "Servlets", "JDBC", "HTML", "JavaScript", "WebSphere", "Ant", "Oracle", "Eclipse"],
