@@ -41,7 +41,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2018 - 2019",
-    role: "Software Developer",
+    role: " Software Developer",
     company: "HashTag Technoligies-Coimbatore, India",
     description: `I was involved in the development and enhancement of a Java-based enterprise web application following J2EE architecture to manage business operations efficiently. The application was built using Struts (MVC2 pattern) for clean separation of concerns, with JSP, HTML, and JavaScript for dynamic user interface development. I developed and deployed Servlets on IBM WebSphere Application Server and implemented Spring's Dependency Injection to manage service and DAO layers for better modularity and testability.`,
     technologies: ["J2EE", "JSP", "Servlets", "JDBC", "HTML", "JavaScript", "WebSphere", "Ant", "Oracle", "Eclipse"],
