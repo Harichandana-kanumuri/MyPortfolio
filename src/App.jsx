@@ -6,7 +6,7 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
-import Contact from "./components/Contact";
+import Contact from "./components/contact";
 import SocialIcons from "./components/SocialIcons";
 
 const App = () => {
