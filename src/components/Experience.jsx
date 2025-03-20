@@ -1,7 +1,7 @@
-import { EXPERIENCES } from "../constants"; // Make sure this matches your file location
+import { EXPERIENCES } from "../constants"; 
 import { motion } from "framer-motion";
 
-// Container variant to stagger the appearance of child elements
+
 const containerVariants = {
   hidden: {},
   visible: {
@@ -12,13 +12,13 @@ const containerVariants = {
   },
 };
 
-// Variant for the heading with a slide-from-top effect
+
 const headingVariant = {
   hidden: { opacity: 0, y: -20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.7 } },
 };
 
-// Variant for each experience item with a fade-in and upward motion
+
 const itemVariants = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -40,8 +40,7 @@ const Experience = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        // If you're not seeing anything, you can adjust the viewport settings:
-        // viewport={{ once: false, amount: 0.0 }}
+      
       >
         {EXPERIENCES.map((experience, index) => (
           <motion.div

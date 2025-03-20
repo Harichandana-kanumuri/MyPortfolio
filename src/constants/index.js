@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `As a Software Developer, I specialize in crafting intuitive user interfaces and developing scalable back-end systems. I am passionate about turning complex concepts into smooth and interactive web experiences. Proficient in modern frameworks like React and Spring Boot, I focus on delivering high-quality, user-centered applications. Let’s collaborate and create something remarkable!`;
 
-export const ABOUT_TEXT = `A results-driven Software Developer with 6 years of experience in software development, specializing in Java and JavaScript technologies across the Healthcare, Financial, and Retail industries.
+export const ABOUT_TEXT = `A results-driven Software Developer with 6 years of experience in software development and specializing in Java and JavaScript technologies across the Healthcare, Financial, and Retail industries.
 
 Proficient in building scalable, secure, and high-performance applications using Java, Spring Boot, ReactJS, and microservices architecture.
 

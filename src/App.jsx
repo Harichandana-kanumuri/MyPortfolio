@@ -22,7 +22,6 @@ const App = () => {
         <Hero />
         <About />
         <Technologies />
-        {/* Make sure Experience is placed where you want it in the scroll order */}
         <Experience />
         <Projects />
         <Education />
