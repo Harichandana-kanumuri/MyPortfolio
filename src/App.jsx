@@ -1,3 +1,4 @@
+import React from "react";
 import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -11,26 +12,23 @@ import SocialIcons from "./components/SocialIcons";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900 min-h-screen">
-      {/* Background Styling */}
       <div className="fixed top-0 left-0 -z-10 h-full w-full">
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
 
-      {/* Navigation Bar */}
       <Navbar />
 
-      {/* Main Content */}
       <div className="container mx-auto px-8">
         <Hero />
         <About />
         <Technologies />
+        {/* Make sure Experience is placed where you want it in the scroll order */}
         <Experience />
         <Projects />
         <Education />
         <Contact />
       </div>
 
-      {/* Social Icons at Bottom */}
       <footer className="mt-12 mb-4 flex justify-center">
         <SocialIcons />
       </footer>

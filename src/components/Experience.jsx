@@ -1,4 +1,4 @@
-import { EXPERIENCES } from "../constants";
+import { EXPERIENCES } from "../constants"; // Make sure this matches your file location
 import { motion } from "framer-motion";
 
 // Container variant to stagger the appearance of child elements
@@ -40,7 +40,8 @@ const Experience = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
+        // If you're not seeing anything, you can adjust the viewport settings:
+        // viewport={{ once: false, amount: 0.0 }}
       >
         {EXPERIENCES.map((experience, index) => (
           <motion.div
