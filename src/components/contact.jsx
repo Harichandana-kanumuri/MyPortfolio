@@ -8,13 +8,13 @@ const Contact = () => {
     message: "",
   });
 
-  // Simple email validation using regex
+  
   const validateEmail = (email) => {
     const re = /\S+@\S+\.\S+/;
     return re.test(email);
   };
 
-  // Update form data onChange
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -23,7 +23,7 @@ const Contact = () => {
     }));
   };
 
-  // Handle form submission
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -39,7 +39,7 @@ const Contact = () => {
       message: formData.message,
     };
 
-    // Send email using EmailJS
+   
     emailjs
       .send(
         "service_96c94pq",    // Your EmailJS service ID
