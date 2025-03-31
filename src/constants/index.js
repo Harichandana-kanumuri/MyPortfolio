@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `As a Software Developer, I specialize in crafting intuitive user interfaces and developing scalable back-end systems. I am passionate about turning complex concepts into smooth and interactive web experiences. Proficient in modern frameworks like React and Spring Boot, I focus on delivering high-quality, user-centered applications. Let’s collaborate and create something remarkable!`;
 
-export const ABOUT_TEXT = `A results-driven Software Developer with 6 years of experience in software development and specializing in Java and JavaScript technologies across the Healthcare, Financial, and Retail industries.
+export const ABOUT_TEXT = `A results-driven Software Developer with around 7 years of experience in software development and specializing in Java and JavaScript technologies across the Healthcare, Financial, and Retail industries.
 
 Proficient in building scalable, secure, and high-performance applications using Java, Spring Boot, ReactJS, and microservices architecture.
 
@@ -29,15 +29,16 @@ export const EXPERIENCES = [
     year: "2021 - 2023",
     role: "Software Developer",
     company: "Legacy Health-Portland, OR,USA",
-    description: `I specialize in building secure, scalable microservices and developing real-time, data-driven front-end applications for industries like healthcare and finance. With expertise in OAuth2, JWT, Kubernetes, Kafka, and CI/CD pipelines, I ensure high-performance, reliable, and efficient software solutions. Passionate about Agile development, cloud security, and system optimization, I continuously innovate to deliver impactful digital experiences.`,
-    technologies: ["Java 8", "HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Redux", "RESTful APIs", "Spring MVC", "Spring IOC", "Spring Hibernate", "Spring Framework", "Spring Security", "OAuth2", "Spring Boot"],
+    description: `Developed responsive web interfaces using Angular, enhancing user accessibility and incorporating dynamic updates with TypeScript best practices. Engineered scalable backend services with Node.js and Express.js, managing APIs and complex data operations. Integrated secure Oracle databases for efficient patient data handling and utilized RabbitMQ for robust message queuing. Deployed applications via Azure Kubernetes Service for optimal container management and system scalability. Conducted rigorous testing with Karma and actively engaged in Agile processes to continuously refine project execution. Implemented and maintained a CI/CD pipeline, automating deployments to ensure consistency and high-quality updates.`,
+    technologies: ["Node.js", "Express.js", "Oracle", "RabbitMQ", "Angular", "TypeScript", "Angular Material", "Azure Kubernetes", "Agile Scrum", "CI/CD", 
+      "Karma"],
   },
   {
     year: "2019 - 2021",
     role: "Software Developer",
     company: "German American Bank-Jasper, IN, USA",
-    description: `I have built scalable, high-performance financial and CRM applications, leveraging Angular (RxJS, NgRx), Node.js microservices, and real-time data streaming with Kafka and RabbitMQ. Skilled in AWS, Docker, and Kubernetes, I optimize cloud deployments for reliability and efficiency. Passionate about performance tuning, API development, and DevOps automation, I thrive on creating seamless and secure digital experiences.`,
-    technologies: ["Microservices", "Angular", "TypeScript", "RxJS", "Redux", "Node.js", "Express", "RESTful APIs", "GraphQL", "MySQL", "MongoDB", "Kafka", "RabbitMQ", "Docker", "Kubernetes", "Terraform", "AWS"],
+    description: `Developed responsive and interactive web interfaces using React for banking operations, optimizing user experiences. Implemented backend services with Spring Boot and Hibernate to manage complex transactional data, complemented by RESTful services for seamless front-end to database communication. Utilized Kafka for real-time notifications and deployed the application on AWS, enhancing scalability and reliability via Docker and Kubernetes. Managed MySQL databases and optimized queries to ensure performance and data integrity. Established and monitored a CI/CD pipeline using Jenkins and Maven, significantly reducing downtime and maintaining compliance with financial regulations.`,
+    technologies: ["React", "Java", "Spring Boot", "Hibernate", "MySQL", "Kafka", "AWS", "Docker", "Kubernetes", "Maven", "Jenkins"],
   },
   {
     year: "2018 - 2019",
@@ -50,24 +51,24 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Customer Self-Service Portal",
+    title: "Scalable and Secure E-Commerce Platform",
     image: project1,
     description:
-      "A customer self-service and engagement portal with features like order management, real-time shipment tracking, and secure customer support.",
+      "The project involved developing a robust e-commerce platform for Uline, aimed at enhancing the online shopping experience for customers while ensuring scalability and security. This platform was designed to manage a vast inventory of products and handle high volumes of user interactions and transactions efficiently.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Real-Time Patient Management System",
+    title: "Integrated Patient Care and Operations Platform for Legacy Health",
     image: project2,
     description:
-      "A real-time patient management system with features like clinical data dashboards, patient record management, and HIPAA-compliant secure access.",
+      "Developed a comprehensive application to enhance patient care and streamline operations at Legacy Health. The platform integrates critical features, such as appointment scheduling and medical record access, into a user-friendly interface.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Financial CRM System",
+    title: "Secure and Scalable Online Banking Platform for Enhanced Customer Engagement",
     image: project3,
     description:
-      "A fully functional CRM system with features like client portfolio management, multi-channel communication, and real-time data analytics for financial advisors.",
+      "Developed an innovative online banking platform to enhance customer engagement and streamline banking operations. The platform integrated key financial services such as account management, fund transfers, and real-time notifications, focusing on security, scalability, and ease of access.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
